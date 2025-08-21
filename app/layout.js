@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
               "name": "Köpa IPTV Sverige",
               "description": "Premium IPTV-tjänst för Sverige med över 50 000 kanaler",
               "url": process.env.NEXT_PUBLIC_SITE_URL,
-              "logo": `${process.env.NEXT_PUBLIC_SITE_URL}/logo.png`,
+              "logo": `${process.env.NEXT_PUBLIC_SITE_URL}/loading.png`,
               "sameAs": [
                 "https://facebook.com/kopaiptvsverige",
                 "https://twitter.com/kopaiptvsverige"

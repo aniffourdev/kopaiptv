@@ -123,7 +123,7 @@ Tack för denna fantastiska möjlighet! 🙏`;
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center bg-yellow-400/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
+          <div className="inline-flex items-center mt-16 bg-yellow-400/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
             <PlayIcon className="h-5 w-5 text-yellow-400 mr-2" />
             <span className="text-yellow-400 font-semibold text-sm">GRATIS PROVPERIOD</span>
           </div>

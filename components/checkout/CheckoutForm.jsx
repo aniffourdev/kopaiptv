@@ -123,7 +123,7 @@ Tack för din snabba service! 🙏`;
           </div>
 
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 mt-16">
               Slutför Din Beställning
             </h1>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">

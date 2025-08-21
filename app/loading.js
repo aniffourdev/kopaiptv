@@ -1,7 +1,25 @@
-// app/loading.js - Logo Loading Screen (Server Component Compatible)
+// app/loading.js - Logo Loading Screen with Minimum Display Time
+'use client';
+
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 export default function Loading() {
+  const [shouldShow, setShouldShow] = useState(true);
+
+  useEffect(() => {
+    // Ensure loading screen shows for at least 2 seconds
+    const timer = setTimeout(() => {
+      setShouldShow(false);
+    }, 2000); // 2 seconds minimum
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!shouldShow) {
+    return null;
+  }
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
       {/* Background Animation */}
@@ -53,6 +71,13 @@ export default function Loading() {
           {/* Loading Bar */}
           <div className="w-64 h-1 bg-white/20 rounded-full mx-auto mt-6 overflow-hidden">
             <div className="h-full w-full bg-gradient-to-r from-yellow-400 to-blue-500 rounded-full animate-pulse"></div>
+          </div>
+
+          {/* Progress Percentage (Visual Enhancement) */}
+          <div className="mt-4">
+            <div className="text-sm text-yellow-400 font-medium animate-pulse">
+              Förbereder innehåll...
+            </div>
           </div>
         </div>
       </div>

@@ -84,15 +84,13 @@ export default function FAQContent() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center bg-yellow-400/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
+          <div className="inline-flex items-center mt-10 bg-yellow-400/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
             <QuestionMarkCircleIcon className="h-5 w-5 text-yellow-400 mr-2" />
             <span className="text-yellow-400 font-semibold text-sm">VANLIGA FRÅGOR</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Frequently Asked
-            <br />
-            <span className="text-yellow-400">Questions</span>
+            Vanliga <span className="text-yellow-400">Frågor</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto mb-12 leading-relaxed">

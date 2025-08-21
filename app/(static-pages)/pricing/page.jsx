@@ -214,7 +214,7 @@ export default function PricingPage() {
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-blue-900 to-purple-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mt-16 mb-6">
             IPTV Priser Sverige
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
